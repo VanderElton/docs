@@ -1,0 +1,18 @@
+site_name: Documentation
+theme:
+  name: readthedocs
+  include_search_page: true
+markdown_extensions:
+    - admonition
+    - toc:
+        permalink: "#"
+nav:
+- Getting Started:
+    - Start: one/start.md
+    - Walkthrough: one/walkthrough.md
+    - University:
+        - Overview: university/overview.md
+        - Course: university/course.md
+    - Tutorials And Projects: one/tutorials.md
+- Security:
+    - Overview: security.md
